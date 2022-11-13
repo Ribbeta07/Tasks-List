@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anniel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body id="body">
+    <div class="taskInput__container">
+        <label for="taskInput">Enter your task: </label>
+        <input type="text" id="taskInput" class="taskInput">
+        <button class="btn createBtn" id="createBtn">Create task</button>
+        <button class="btn deleteBtn" id="deleteBtn">Clear all</button>
+    </div>
+
+    <div class="hero">
+
+        <div id="tableContainer" class="table__container">
+            <div class="table__col">
+                <h1 class="table__title">Pending tasks</h1>
+                <div id="tareasSinHacer" class="table__tareas table__tareas1">
+                </div>
+            </div>
+        </div>
+        <i id="trashcan" class="trashcan fa-solid fa-trash"></i>
+    </div>
+
+    <script src="https://kit.fontawesome.com/b9661a3045.js " crossorigin="anonymous "></script>
+    <script src="script.js "></script>
+</body>
+
+</html>
